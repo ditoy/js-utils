@@ -1,0 +1,19 @@
+{
+  "name": "ditoy-js-utils",
+  "version": "0.0.1",
+  "description": "ditoy JS utilities",
+  "main": "src/js-utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ditoy/js-utils.git"
+  },
+  "author": "Dietrich Rordorf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ditoy/js-utils/issues"
+  },
+  "homepage": "https://github.com/ditoy/js-utils#readme"
+}
