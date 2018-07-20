@@ -2,7 +2,7 @@
  * Fade out DOM element
  * @param el DOM element
  */
-const fadeOut = (el) => {
+const fadeOut = function (el) {
     el.style.opacity = 1;
     (function fade() {
         if ((el.style.opacity -= 0.1) < 0) {
@@ -18,11 +18,11 @@ const fadeOut = (el) => {
  * @param el DOM element
  * @param display CSS display property, defaults tp 'block'
  */
-const fadeIn =  (el, display) => {
+const fadeIn = function (el, display) {
     el.style.opacity = 0;
     el.style.display = display || 'block';
     (function fade() {
-        let val = parseFloat(el.style.opacity);
+        var val = parseFloat(el.style.opacity);
         if (!((val += 0.1) > 1)) {
             el.style.opacity = val;
             requestAnimationFrame(fade);
