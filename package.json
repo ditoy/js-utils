@@ -1,6 +1,6 @@
 {
   "name": "ditoy-js-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ditoy JS utilities",
   "main": "src/js-utils.js",
   "scripts": {
