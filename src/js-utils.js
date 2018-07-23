@@ -1,7 +1,7 @@
 /*
  * ditoy javascript helpers
  *
- * ES6, use as: import * from 'ditoy-utils';
+ * ES6, use as: import {*} from 'ditoy-utils';
  *
  */
 
