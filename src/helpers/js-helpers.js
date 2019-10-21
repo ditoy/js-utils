@@ -4,7 +4,7 @@
  * @param callback function that takes individual items as argument
  * @returns {Array}
  */
-const forEach = (items, callback) => {
+const forEach = function(items, callback) {
     let res = [];
     for(let i = 0; i < items.length; i++) {
         let item = items[i];
